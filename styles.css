@@ -1,0 +1,318 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: o;
+    cursor: pointer;
+
+}
+.nav-list{
+   background-color: darkblue;
+    width: 70%;
+    display: flex;
+    align-items: center;
+  
+}
+
+.nav-list li {
+    list-style:none;
+    padding: 14px 28px;
+    
+}
+
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list li a:hover{
+    color: orange;
+    text-decoration: none;
+}
+.rightnav{
+    background-color: darkblue;
+    width: 30%;
+    text-align: right;
+    padding: 0.04%;
+}
+.rightnav:hover{
+
+    color: black;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 9px;
+    background: none;
+    background-color: white;
+}
+.background{
+    background-color: rgba(o, o, o, 0.7);
+    background-image: url(https://www.nation.com.pk/digital_images/extra-large/2022-12-20/13-iub-academics-among-world-s-top-2-000-scientists-1671545505-6752.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.firstsection{
+    background-color: skyblue;
+    height: 50vh;
+}
+.box-main{
+    height: 75%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.firsthalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+ 
+}
+.text-big{
+    font-size: 30px;
+    color: orange;
+}
+.text-big:hover{
+    font-size: 30px;
+    color: black;
+}
+.text-small{
+    font-size: 20px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    font-size: 16px;
+    border-radius: 2px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-grab{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    font-size: 16px;
+    border-radius: 2px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+.btn:hover{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    font-size: 16px;
+    border-radius: 2px;
+    background: none;
+    color: orange;
+    cursor: pointer;
+}
+.btn-grab{
+    padding: 12px 40px;
+    margin: 7px 0;
+    border: 2px solid white;
+    font-size: 16px;
+    border-radius: 2px;
+    background-color: orange;
+    color:white;
+    cursor: pointer;
+
+}
+.secright{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+}
+.paras{
+    padding: 0 10px;
+}
+.fluid{
+    width: 100%;
+}
+.team-members {
+    margin-top: 50px;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  .team-member figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .team-member p {
+    color: #777;
+    margin-top: 5px;
+  }
+.h1{
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+  .text-smal{
+    font-size: 16px;
+  }
+
+  .ftext{
+    color: white;
+  }
+
+@media screen  {max-width: 1170px;
+    .nav-list{
+        flex-direction: column;
+    }
+}
+footer{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
